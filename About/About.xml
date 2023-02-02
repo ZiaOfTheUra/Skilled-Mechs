@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Skilled Mechs</name>
+	<author>Zia#4090</author>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<modVersion>1.0</modVersion>
+	<packageId>zia.skilledmechs</packageId>
+	<description>Makes all mechs work with 20 skill. Due to the fact that the Agrihand and Tunneler both don't benefit at all from this change, their respective workspeeds have been increased by a flat 20% and 30% respectively (25% increase for the first, 20% for the second). Lifters also move as quickly as other similarly tiered mechanoids, instead of moving slower.</description>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+		<li>OskarPotocki.VFE.Mechanoid</li>
+		<li>Mlie.MechanoidPower</li>
+		<li>hlx.reinforcedmechanoids2</li>
+	</loadAfter>
+
+</ModMetaData>

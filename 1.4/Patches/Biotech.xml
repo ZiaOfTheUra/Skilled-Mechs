@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="HeavyMechanoid"]/race</xpath>
+        <value>
+            <mechFixedSkillLevel>20</mechFixedSkillLevel>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="LightMechanoid"]/race</xpath>
+        <value>
+            <mechFixedSkillLevel>20</mechFixedSkillLevel>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="Mech_Lifter"]/statBases</xpath>
+	<value>
+      	    <statBases>
+        	<MoveSpeed>3.4</MoveSpeed>
+            </statBases>
+	</value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="Mech_Tunneler"]/statBases</xpath>
+	<value>
+      	    <statBases>
+        	<WorkSpeedGlobal>1.80</WorkSpeedGlobal>
+            </statBases>
+	</value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="Mech_Agrihand"]/statBases</xpath>
+	<value>
+      	    <statBases>
+        	<PlantWorkSpeed>1.00</PlantWorkSpeed>
+            </statBases>
+	</value>
+    </Operation>
+</Patch>
